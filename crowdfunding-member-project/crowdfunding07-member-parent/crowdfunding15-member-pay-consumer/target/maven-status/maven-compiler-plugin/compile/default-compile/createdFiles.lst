@@ -1,0 +1,4 @@
+org\fall\config\PayProperties.class
+org\fall\handler\PayHandler.class
+META-INF\spring-configuration-metadata.json
+org\fall\PayConsumerApp.class

@@ -1,0 +1,24 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: crowd-project
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  redis:
+    host: 127.0.0.1
+  session:
+    store-type: redis
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka/
+
+aliyun:
+  oss:
+    access-key-id: LTAI5tPEg9q4YJHGXC6tkwmJ
+    access-key-secret: 0wTkZZ6c3Bsx4nnKkNPsL5N6UJKtwB
+    bucket-domain: http://pycbucket01.oss-cn-beijing.aliyuncs.com
+    bucket-name: pycbucket01
+    end-point: http://oss-cn-beijing.aliyuncs.com

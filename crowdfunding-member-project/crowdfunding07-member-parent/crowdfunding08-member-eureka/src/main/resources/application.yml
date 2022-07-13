@@ -1,0 +1,14 @@
+server:
+  port: 1000
+spring:
+  application:
+    name: crowd-eureka
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: false       #不需要从注册中心取回
+    register-with-eureka: false       #不需要注册进注册中心
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    registry-fetch-interval-seconds: 10

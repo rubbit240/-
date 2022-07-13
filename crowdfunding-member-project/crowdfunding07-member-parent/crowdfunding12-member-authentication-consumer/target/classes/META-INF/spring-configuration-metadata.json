@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "short.message",
+      "type": "org.fall.config.ShortMessageProperties",
+      "sourceType": "org.fall.config.ShortMessageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "short.message.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "org.fall.config.ShortMessageProperties"
+    },
+    {
+      "name": "short.message.access-secret",
+      "type": "java.lang.String",
+      "sourceType": "org.fall.config.ShortMessageProperties"
+    },
+    {
+      "name": "short.message.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "org.fall.config.ShortMessageProperties"
+    },
+    {
+      "name": "short.message.phone-num",
+      "type": "java.lang.String",
+      "sourceType": "org.fall.config.ShortMessageProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,6 @@
+org\fall\handler\MemberHandler.class
+META-INF\spring-configuration-metadata.json
+org\fall\config\ShortMessageProperties.class
+org\fall\config\CrowdWebMvcConfig.class
+org\fall\handler\PortalHandler.class
+org\fall\AuthConsumerApp.class

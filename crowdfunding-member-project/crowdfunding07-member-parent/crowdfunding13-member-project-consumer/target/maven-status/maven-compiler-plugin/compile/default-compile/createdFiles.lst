@@ -1,0 +1,5 @@
+org\fall\handler\ProjectConsumerHandler.class
+org\fall\config\OSSProperties.class
+META-INF\spring-configuration-metadata.json
+org\fall\ProjectConsumerApp.class
+org\fall\config\CrowdWebMvcConfig.class
